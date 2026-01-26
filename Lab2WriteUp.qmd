@@ -132,6 +132,7 @@ ii. Drag `body_mass_g` to the X box and `species` to the fill box.
 iii. Describe what you see in words. What can you conclude about Adelie, Chinstrap, and Gentoo penguins based on the resulting plot? 
 
 **Solution**
+
 Adelie penguins seem to be largest in quantity. Adelie and Chinstrap penguins, on average, have lower body mass than Gentoo penguines. 
 
 # Objects and Vectors
