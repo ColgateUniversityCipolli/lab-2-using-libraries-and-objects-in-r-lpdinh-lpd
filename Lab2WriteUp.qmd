@@ -233,4 +233,4 @@ Create a vector containing the `character` "MATH" and the `numeric` 240. What is
 
 **Solutions**
 
-The resulting class is character because that class is to the right of numeric class.
+The resulting class is character because that class is to the right of the numeric class.
