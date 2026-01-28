@@ -191,6 +191,8 @@ Create a vector of the first 10 Fibonacci numbers.
 
 **Solutions**
 
+I can't use `seq(...)` because the distance between 2 observations in this vector is not fixed.
+
 ```{r}
 #| size: "scriptsize"
 #| code-fold: FALSE
