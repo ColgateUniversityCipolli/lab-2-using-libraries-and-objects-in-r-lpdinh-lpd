@@ -330,8 +330,17 @@ the command instead of actually citing. --></p>
 <p>Consider setting up data entry for this experiment.</p>
 <ol type="i">
 <li>Create a vector containing each <code>ID</code> repeated three times, once for each treatment.</li>
-<li>Create a vector containing each <code>Treatment</code> repeated for each participant ID.</li>
 </ol>
+<p><strong>Solutions</strong></p>
+<p></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1"></a>(idrepeated <span class="ot">&lt;-</span> <span class="fu">rep</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">each=</span><span class="dv">3</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  1  1  1  2  2  2  3  3  3  4  4  4  5  5  5  6  6  6  7  7  7  8  8  8  9
+[26]  9  9 10 10 10</code></pre>
+</div>
+</div>
+<p> ii. Create a vector containing each <code>Treatment</code> repeated for each participant ID.</p>
 </section>
 <section id="part-d-1" class="level2" data-number="2.4">
 <h2 data-number="2.4" class="anchored" data-anchor-id="part-d-1"><span class="header-section-number">2.4</span> Part d</h2>

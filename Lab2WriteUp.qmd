@@ -217,6 +217,14 @@ Suppose I were designing a repeated meausres experiment with three treatment con
 Consider setting up data entry for this experiment.
 
 i. Create a vector containing each `ID` repeated three times, once for each treatment.
+
+**Solutions**
+
+```{r}
+#| size: "scriptsize"
+#| code-fold: FALSE
+(idrepeated <- rep(1:10, each=3))
+```
 ii. Create a vector containing each `Treatment` repeated for each participant ID.
 
 ## Part d
