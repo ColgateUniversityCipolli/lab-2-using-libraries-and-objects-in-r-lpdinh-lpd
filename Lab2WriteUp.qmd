@@ -230,3 +230,7 @@ ii. Create a vector containing each `Treatment` repeated for each participant ID
 
 ## Part d
 Create a vector containing the `character` "MATH" and the `numeric` 240. What is the resulting class? Explain why in a sentence.
+
+**Solutions**
+
+The resulting class is character because that class is to the right of numeric class.
