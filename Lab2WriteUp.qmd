@@ -106,6 +106,9 @@ help ("esquisse")
 Is a demo or vignette available for the  `esquisse` package for `R`? Report the code below, ensuring to set the `eval` option to `false`, using "\#| eval: false", so that the you don't get errors when you compile your Quarto document.
 
 **Solution**
+
+No demo or vignette was found for the package.
+
 ```{r}
 #| eval: false
 demo ("esquisse")
