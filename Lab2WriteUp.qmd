@@ -136,7 +136,7 @@ iii. Describe what you see in words. What can you conclude about Adelie, Chinstr
 
 **Solution**
 
-Adelie penguins seem to be largest in quantity. Adelie and Chinstrap penguins, on average, have lower body mass than Gentoo penguines. 
+I saw three historgrams the first time I did this, but this time I'm seeing three boxplots. The median body masses of Chinstrap and Adelie penguins are lower than that of Gentoo penguins. The body mass of Gentoo penguines have greater variability than the other groups'. In the dataset for the Chinstrap group, there are 2 outliers.
 
 # Objects and Vectors
 Create the following vectors in `R`. In some cases, you may be able to use `seq()` or `rep()` while in others you cannot. Use these functions when possible, otherwise manually create the vector and explain why that was necessary.
