@@ -230,7 +230,7 @@ ii. Create a vector containing each `Treatment` repeated for each participant ID
 #| size: "scriptsize"
 #| code-fold: FALSE
 (idrepeated <- rep(1:10, each=3))
-(txrepeated <- rep(c("Control", "Treatment A", "Treatment B"), each=10))
+(txrepeated <- rep(c("Control", "Treatment A", "Treatment B"), times=10))
 ```
 
 ## Part d
