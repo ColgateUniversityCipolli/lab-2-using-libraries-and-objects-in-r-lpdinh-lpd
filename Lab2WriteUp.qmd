@@ -194,7 +194,7 @@ Create a vector of the first 10 Fibonacci numbers.
 
 **Solutions**
 
-I can't use `seq(...)` because the distance between 2 observations in this vector is not fixed.
+For both part a and b: I can't use `seq(...)` because the distance between 2 observations in this vector is not fixed. The numbers in this sequence are also not repeated, so I can't use `rep(...)`. 
 
 ```{r}
 #| size: "scriptsize"
@@ -238,4 +238,4 @@ Create a vector containing the `character` "MATH" and the `numeric` 240. What is
 
 **Solutions**
 
-The resulting class is character because that class is to the right of the numeric class.
+The resulting class is character because vectors can only contain one type of data, and the character class is further to the right than the numeric class, so 240 is coerced into "240".
